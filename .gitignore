@@ -1,0 +1,59 @@
+# Project specific
+data
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Dependency directories
+vendor/
+
+# Go modules
+go.mod
+go.sum
+
+# Binary artifacts
+bin/
+build/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+*.test
+*.cover
+*.prof
+coverage.out
+
+# Ignore compiled binary output
+/bookcli
+/cmd/bookcli/bookcli
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.old
+
+# Ignore specific environment files
+.env
+
+# Ignore auto-generated directories/files
+gen/
